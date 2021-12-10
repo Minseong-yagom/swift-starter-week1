@@ -13,4 +13,12 @@ func makeIceCream() {
         print("***********")
     }
 }
+
+func makeStick() {
+    for _ in 1...4 {
+        print("    | |")
+    }
+}
+
 makeIceCream()
+makeStick()
